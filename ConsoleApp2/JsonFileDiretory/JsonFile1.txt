@@ -1,0 +1,27 @@
+﻿{
+  "matches": [{
+    "threatType":      "MALWARE",
+    "platformType":    "WINDOWS",
+    "threatEntryType": "URL",
+    "threat":          {"url": "http://www.urltocheck1.org/"},
+    "threatEntryMetadata": {
+      "entries": [{
+        "key": "malware_threat_type",
+        "value": "landing"
+     }]
+    },
+    "cacheDuration": "300.000s"
+  }, {
+    "threatType":      "MALWARE",
+    "platformType":    "WINDOWS",
+    "threatEntryType": "URL",
+    "threat":          {"url": "http://www.urltocheck2.org/"},
+    "threatEntryMetadata": {
+      "entries": [{
+        "key":   "malware_threat_type",
+        "value": "landing"
+     }]
+    },
+    "cacheDuration": "300.000s"
+  }]
+}
